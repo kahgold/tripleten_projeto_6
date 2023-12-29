@@ -51,6 +51,7 @@ Agora você tem esses dois CSVs:
 Teste a hipótese: "A duração média das viagens do Loop para o Aeroporto Internacional O'Hare muda em sábados chuvosos."
 
 **Conclusão** 
+
 *Nossa jornada de análise de dados nos levou a descobrir insights valiosos sobre as preferências dos passageiros e o impacto do clima nas corridas de táxi. À medida que exploramos os dados, desvendamos padrões que nos permitirão aprimorar nossos serviços e tornar as viagens mais agradáveis para nossos passageiros. Nossa análise revelou que a `Flash Cab` é uma empresa consolidada com uma alta demanda por viagens, sugerindo que eles possuem uma frota considerável. Além disso, companhias afiliadas e associadas também desempenham um papel importante no setor.*
 
 *Identificamos os destinos mais requisitados, com áreas centrais da cidade, como `River North`, `Streeterville`, `West Loop` e `Loop`, consistentemente no Top 10. Esses insights nos orientam a melhor posicionar nossa frota no distrito de negócios de Chicago, onde a demanda é mais alta. Nossa análise também revelou que algumas corridas com tempo de duração igual a zero foram canceladas ou tiveram problemas na extração de dados, e também tomamos medidas para tratar os devidos outliers nos dados.*
