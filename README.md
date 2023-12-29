@@ -51,16 +51,12 @@ Agora você tem esses dois CSVs:
 Teste a hipótese: "A duração média das viagens do Loop para o Aeroporto Internacional O'Hare muda em sábados chuvosos."
 
 **Conclusão** 
-As preferências dos passageiros são: 
-- Loop
-- River North
-- Streeterville
-- West Loop
-- O'Hare
-- Lake View
-- Grant Park
-- Museum Campus
-- Gold Coast
-- Sheffield & DePaul.
+*Nossa jornada de análise de dados nos levou a descobrir insights valiosos sobre as preferências dos passageiros e o impacto do clima nas corridas de táxi. À medida que exploramos os dados, desvendamos padrões que nos permitirão aprimorar nossos serviços e tornar as viagens mais agradáveis para nossos passageiros. Nossa análise revelou que a `Flash Cab` é uma empresa consolidada com uma alta demanda por viagens, sugerindo que eles possuem uma frota considerável. Além disso, companhias afiliadas e associadas também desempenham um papel importante no setor.*
 
-Os fatores externos têm um impacto, tanto na duração das viagens (comprovado no teste estatístico) quanto no número de viagens (diferença nas linhas do quadro de dados filtradas por tempo bom (888) e tempo ruim (180). Com um total de 708 corridas a mais em dias com tempo bom).
+*Identificamos os destinos mais requisitados, com áreas centrais da cidade, como `River North`, `Streeterville`, `West Loop` e `Loop`, consistentemente no Top 10. Esses insights nos orientam a melhor posicionar nossa frota no distrito de negócios de Chicago, onde a demanda é mais alta. Nossa análise também revelou que algumas corridas com tempo de duração igual a zero foram canceladas ou tiveram problemas na extração de dados, e também tomamos medidas para tratar os devidos outliers nos dados.*
+
+*Geramos diversos gráficos para ilustrar nossas análises, dividimos as companhias em grupos e identificamos que, se quisermos atingir a liderança no setor, devemos nos inspirar nas empresas que se encontram no primeiro quartil (Q1) das métricas de desempenho. Além disso, constatamos que é relevante estabelecer associações e afiliações, considerando a média de viagens. Nossos estudos mostram que as condições climáticas impactam diretamente o comportamento dos usuários, afetando os horários, a frequência de uso e a duração das viagens.*
+
+*Concluímos que em dias ruins, as viagens tendem a ser mais longas, enquanto em dias bons, os clientes utilizam mais os táxis. Nossos gráficos de dispersão destacaram demandas de horários específicos, com picos notáveis durante o horário de almoço e início da manhã, dependendo das condições climáticas.*
+
+*Verificamos que a hora do dia tem uma influência significativa na duração da viagem, conforme evidenciado pela matriz de correlação que geramos. Além disso, testamos a hipótese de que a duração média das viagens do Loop para o Aeroporto Internacional O'Hare muda nos sábados chuvosos em comparação com os sábados não chuvosos. Nossos testes utilizando o método t-Student rejeitaram a hipótese nula, confirmando que a duração média das viagens realmente varia nos sábados chuvosos. Para reforçar nossos resultados, aplicamos o método bootstrap e obtivemos os mesmos resultados, validando assim nossa análise.*
