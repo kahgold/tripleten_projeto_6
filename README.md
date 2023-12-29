@@ -8,29 +8,29 @@ Neste projeto, analisei a Zuber, uma nova empresa de compartilhamento de caronas
 
 Um banco de dados com informações sobre viagens de táxi em Chicago:
 Tabela de bairros: dados sobre os bairros da cidade
-- nome: nome do bairro
-- neighborhood_id: código do bairro
+- `nome`: nome do bairro
+- `neighborhood_id`: código do bairro
 
 Tabela cabs: dados sobre os táxis
-- cab_id: código do veículo
-- vehicle_id: a identificação técnica do veículo
-- company_name: a empresa proprietária do veículo
+- `cab_id`: código do veículo
+- `vehicle_id`: a identificação técnica do veículo
+- `company_name`: a empresa proprietária do veículo
 
 Tabela trips: dados sobre viagens
-- trip_id: código da viagem
-- cab_id: código do veículo que está operando a corrida
-- start_ts: data e hora do início da corrida (hora arredondada para a hora)
-- end_ts: data e hora do final da corrida (hora arredondada para a hora)
-- duration_seconds: duração da corrida em segundos
-- distance_miles: distância percorrida em milhas
-- pickup_location_id: código do bairro de coleta
-- dropoff_location_id: código do bairro de entrega
+- `trip_id`: código da viagem
+- `cab_id`: código do veículo que está operando a corrida
+- `start_ts`: data e hora do início da corrida (hora arredondada para a hora)
+- `end_ts`: data e hora do final da corrida (hora arredondada para a hora)
+- `duration_seconds`: duração da corrida em segundos
+- `distance_miles`: distância percorrida em milhas
+- `pickup_location_id`: código do bairro de coleta
+- `dropoff_location_id`: código do bairro de entrega
 
 Tabela weather_records: dados meteorológicos
-- record_id: código do registro meteorológico
-- ts: data e hora dos registros (hora arredondada para a hora)
-- temperatura: temperatura quando o registro foi feito
-- description: breve descrição das condições meteorológicas, por exemplo, "chuva leve" ou "nuvens esparsas".
+- `record_id`: código do registro meteorológico
+- `ts`: data e hora dos registros (hora arredondada para a hora)
+- `temperatura`: temperatura quando o registro foi feito
+- `description`: breve descrição das condições meteorológicas, por exemplo, "chuva leve" ou "nuvens esparsas".
 
 **Python**
 
