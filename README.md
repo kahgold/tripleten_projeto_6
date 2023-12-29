@@ -34,13 +34,14 @@ Tabela weather_records: dados meteorológicos
 
 **Python**
 
-Agora você tem esses dois CSVs: project_sql_result_01.csv. Contém os seguintes dados
-- company_name: nome da empresa de táxi
-- trips_amount: o número de corridas para cada empresa de táxi de 15 a 16 de novembro de 2017.
+Agora você tem esses dois CSVs: 
+- project_sql_result_01.csv. Contém os seguintes dados
+  - company_name: nome da empresa de táxi
+  - trips_amount: o número de corridas para cada empresa de táxi de 15 a 16 de novembro de 2017.
 
-project_sql_result_04.csv. Contém os seguintes dados
-- dropoff_location_name: bairros de Chicago onde as corridas terminaram
-- average_trips: o número médio de viagens que terminaram em cada bairro em novembro de 2017.
+- project_sql_result_04.csv. Contém os seguintes dados
+  - dropoff_location_name: bairros de Chicago onde as corridas terminaram
+  - average_trips: o número médio de viagens que terminaram em cada bairro em novembro de 2017.
 
 Teste a hipótese: "A duração média das viagens do Loop para o Aeroporto Internacional O'Hare muda em sábados chuvosos."
 
