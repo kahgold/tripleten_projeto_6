@@ -35,15 +35,32 @@ Tabela weather_records: dados meteorológicos
 **Python**
 
 Agora você tem esses dois CSVs: 
-- project_sql_result_01.csv. Contém os seguintes dados
-  - company_name: nome da empresa de táxi
-  - trips_amount: o número de corridas para cada empresa de táxi de 15 a 16 de novembro de 2017.
+- project_sql_result_01.csv. Contém os seguintes dados:
+  - `company_name`: nome da empresa de táxi
+  - `trips_amount`: o número de corridas para cada empresa de táxi de 15 a 16 de novembro de 2017.
 
-- project_sql_result_04.csv. Contém os seguintes dados
-  - dropoff_location_name: bairros de Chicago onde as corridas terminaram
-  - average_trips: o número médio de viagens que terminaram em cada bairro em novembro de 2017.
+- project_sql_result_04.csv. Contém os seguintes dados:
+  - `dropoff_location_name`: bairros de Chicago onde as corridas terminaram
+  - `average_trips`: o número médio de viagens que terminaram em cada bairro em novembro de 2017.
+
+- project_sql_result_07.csv. Contém os seguintes daddos:
+  - `start_ts`: data e hora de coleta
+  - `weather_conditions`: condições meteorológicas no momento em que a corrida começou
+  - `duration_seconds`: duração da corrida em segundos
 
 Teste a hipótese: "A duração média das viagens do Loop para o Aeroporto Internacional O'Hare muda em sábados chuvosos."
 
 **Conclusão** 
-As preferências dos passageiros são: 1- Loop 2- River North 3- Streeterville 4- West Loop 5- O'Hare 6- Lake View 7- Grant Park 8- Museum Campus 9- Gold Coast 10- Sheffield & DePaul. Os fatores externos têm um impacto, tanto na duração das viagens (comprovado no teste estatístico) quanto no número de viagens (diferença nas linhas do quadro de dados filtradas por tempo bom (888) e tempo ruim (180). Com um total de 708 corridas a mais em dias com tempo bom).
+As preferências dos passageiros são: 
+- Loop
+- River North
+- Streeterville
+- West Loop
+- O'Hare
+- Lake View
+- Grant Park
+- Museum Campus
+- Gold Coast
+- Sheffield & DePaul.
+
+Os fatores externos têm um impacto, tanto na duração das viagens (comprovado no teste estatístico) quanto no número de viagens (diferença nas linhas do quadro de dados filtradas por tempo bom (888) e tempo ruim (180). Com um total de 708 corridas a mais em dias com tempo bom).
